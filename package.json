@@ -11,6 +11,10 @@
   ],
   "scripts": {
     "dev": "npm run dev --workspace=packages/react-frontend",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
